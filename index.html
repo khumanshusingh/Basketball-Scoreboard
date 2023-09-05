@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basketball Scorecard</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 class="heading">BASKETBALL SCORECARD</h1>
+    <div class="container">
+      <div class="home card">
+        <h1>HOME</h1>
+        <p id="home-el">0</p>
+        <button onclick="add1Home()">+1</button>
+        <button onclick="add2Home()">+2</button>
+        <button onclick="add3Home()">+3</button>
+      </div>
+
+      <div class="away card">
+        <h1>AWAY</h1>
+        <p id="away-el">0</p>
+        <button onclick="add1Away()">+1</button>
+        <button onclick="add2Away()">+2</button>
+        <button onclick="add3Away()">+3</button>
+      </div>
+    </div>
+    <button class="btn" onclick="newGame()">NEW GAME</button>
+    <img src="basketball.png" alt="" id="bg-image" />
+    <script src="script.js"></script>
+  </body>
+</html>

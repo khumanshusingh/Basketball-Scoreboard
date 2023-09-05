@@ -1,0 +1,77 @@
+@font-face {
+  font-family: digital;
+  src: url(digital-7.ttf);
+}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  height: 75vh;
+}
+.card {
+  text-align: center;
+  background-color: rgb(0, 82, 117);
+  padding: 1rem;
+  color: aliceblue;
+  border: 2px solid navajowhite;
+  width: 200px;
+  border-radius: 16px;
+  box-shadow: 0 0 8px coral;
+}
+
+.heading {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+  color: #ffffff;
+  text-shadow: 0px 0px 2px #fefdfb;
+}
+button {
+  border: none;
+  background-color: antiquewhite;
+  border-radius: 2px;
+  box-shadow: 0 0 4px rgb(1, 138, 196);
+  padding: 6px 12px;
+  background-color: rgb(2, 198, 198);
+  color: aliceblue;
+  font-weight: 700;
+}
+button:hover {
+  background-color: rgb(2, 162, 162);
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}
+body {
+  background-color: rgb(251, 117, 68);
+  font-family: "Open Sans", sans-serif;
+}
+.card p {
+  font-size: 4rem;
+  font-family: digital;
+  background-color: black;
+  color: red;
+}
+.card h1 {
+  color: #ffb300;
+  text-shadow: 1px 1px 2px #ffb300;
+}
+.btn {
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding: 8px 16px;
+  background-color: rgb(2, 198, 198);
+  color: aliceblue;
+  font-weight: 700;
+}
+#bg-image {
+  position: absolute;
+  top: 50px;
+  right: 150px;
+  z-index: -1;
+  width: 80vw;
+  opacity: 0.5;
+}
